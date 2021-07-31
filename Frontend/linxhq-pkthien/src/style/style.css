@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://i1.wp.com/www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg?fit=848%2C477);
+  background-repeat: none;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.login-form {
+  width: 40%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 20px;
+  margin: 100px auto;
+  background: #fff;
+  text-align: center;
+}
+
+.login-element {
+  margin-bottom: 20px !important;
+}
+
+.firebase {
+  min-width: 500px;
+}
+
+.current-info {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif !important;
+  color: #fff !important;
+  text-align: right;
+}
+
+.content {
+  margin-top: 240px;
+  width: calc(100% - 240px);
+  padding: 0 200px;
+  margin: 100px auto;
+}
+
+.input-request {
+  margin-bottom: 30px !important;
+  text-align: left !important;
+}
+
+.avatar:hover {
+  cursor: pointer;
+  border: 2px solid #fff;
+  /* transition: 10ms; */
+}
+
+.iconButton {
+  font-size: 20px;
+}
+
+.iconButton:hover {
+  cursor: pointer;
+}
